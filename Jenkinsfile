@@ -1,4 +1,4 @@
-node('nodes'){
+node{
     
     def mavenHome = tool name:"maven3.8.1"
   	      echo "Jenkins Job Number ${env.BUILD_NUMBER}"
